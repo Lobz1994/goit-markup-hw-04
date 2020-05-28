@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Верстка№1</title>
+  </head>
+  <body>
+    <!-- cntr + /          комментарий
+              alt + clik mouse выделение нескольких строк
+              alt + shift      выделение вниз  
+              ctrl+shift+4 - сетка в figme-->
+
+    <header>
+      <!--Шапка сайта-->
+      <div class="container-header container">
+        <nav class="items-nav">
+          <a href="./index.html" class="logo"
+            >Web <span class="studio-header"> Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-menu">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./portfolio.html" class="nav-menu">Портфолио</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-menu">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-connection">
+          <ul class="container-connection-items">
+            <li class="list-connection">
+              <!-- <img src="./images/svg/mail.svg" alt="отправить" /> -->
+              <a href="mailto:info@devstudio.com" class="nav-contact"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list-connection">
+              <!-- <img src="./images/svg/phone.svg" alt="позвонить" /> -->
+              <a href="tel:+380961111111" class="nav-contact"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--MAIN-->
+    <main>
+      <section class="hero">
+        <div class="section-hero container">
+          <h1 class="h1-studio">
+            эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <div class="section-hero-button">
+            <button type="button" class="button-hero">Заказать услугу</button>
+          </div>
+        </div>
+      </section>
+      <section class="section-features container padding__container">
+        <ul class="section-features-items">
+          <li class="features-items-list">
+            <div class="container-features-svg">
+              <img
+                src="./images/svg/svg1-4.svg"
+                class="features-svg"
+                alt="Внимание к деталям"
+              />
+            </div>
+            <h3 class="features-name">внимание к деталям</h3>
+            <p class="features-title">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="features-items-list">
+            <div class="container-features-svg">
+              <img
+                src="./images/svg/svg2-4.svg"
+                class="features-svg"
+                alt="Пунктуальность"
+              />
+            </div>
+            <h3 class="features-name">пунктуальность</h3>
+            <p class="features-title">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="features-items-list">
+            <div class="container-features-svg">
+              <img
+                src="./images/svg/svg3-4.svg"
+                class="features-svg"
+                alt="Планирование"
+              />
+            </div>
+            <h3 class="features-name">планирование</h3>
+            <p class="features-title">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="features-items-list">
+            <div class="container-features-svg">
+              <img
+                src="./images/svg/svg4-4.svg"
+                class="features-svg"
+                alt="Современные технологии"
+              />
+            </div>
+            <h3 class="features-name">современные технологии</h3>
+            <p class="features-title">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-desktop container padding__container">
+        <h2 class="h2-studio">Чем мы занимаемся</h2>
+        <ul class="desktop-list">
+          <li class="desktop-list-items">
+            <img
+              src="./images/jpg/img1-3.jpg"
+              alt="Десктопные приложения"
+              width="370"
+              class="img-block"
+            />
+            <h3 class="soft">десктопные приложения</h3>
+          </li>
+          <li class="desktop-list-items">
+            <img
+              src="./images/jpg/img2-3.jpg"
+              alt="Мобильные приложения"
+              width="370"
+              class="img-block"
+            />
+            <h3 class="soft">мобильные приложения</h3>
+          </li>
+          <li class="desktop-list-items">
+            <img
+              src="./images/jpg/img3-3.jpg"
+              alt="Дизайнерские решения"
+              width="370"
+              class="img-block"
+            />
+            <h3 class="soft">дизайнерские решения</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-command padding__container">
+        <h2 class="h2-studio">Наша команда</h2>
+        <ul class="command-list">
+          <li class="command-items">
+            <img
+              src="./images/jpg/img1-4.jpg"
+              alt="Джон Ситт"
+              width="270"
+              class="img-block"
+            />
+            <h3 class="user">John Smith</h3>
+            <p class="user-skill">Product Designer</p>
+            <div class="container-seti">
+              <ul class="user-seti">
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/insta.svg" alt="инстаграмм"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/twitter.svg" alt="твиттер"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/facebook.svg" alt="фейстбук"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/linkid.svg" alt="линкид"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="command-items">
+            <img
+              src="./images/jpg/img2-4.jpg"
+              alt="Марта Стевард"
+              width="270"
+              class="img-block"
+            />
+            <h3 class="user">Marta Stewart</h3>
+            <p class="user-skill">Frontend Developer</p>
+            <div class="container-seti">
+              <ul class="user-seti">
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/insta.svg" alt="инстаграмм"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/twitter.svg" alt="твиттер"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/facebook.svg" alt="фейстбук"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/linkid.svg" alt="линкид"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="command-items">
+            <img
+              src="./images/jpg/img3-4.jpg"
+              alt="Роберт Якис"
+              width="270"
+              class="img-block"
+            />
+            <h3 class="user">Robert Jakis</h3>
+            <p class="user-skill">Marketing</p>
+            <div class="container-seti">
+              <ul class="user-seti">
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/insta.svg" alt="инстаграмм"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/twitter.svg" alt="твиттер"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/facebook.svg" alt="фейстбук"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/linkid.svg" alt="линкид"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="command-items">
+            <img
+              src="./images/jpg/img4-4.jpg"
+              alt="Мартин До"
+              width="270"
+              class="img-block"
+            />
+            <h3 class="user">Martin Doe</h3>
+            <p class="user-skill">UI Designer</p>
+            <div class="container-seti">
+              <ul class="user-seti">
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/insta.svg" alt="инстаграмм"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/twitter.svg" alt="твиттер"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/facebook.svg" alt="фейстбук"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./images/svg/linkid.svg" alt="линкид"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-client container padding__container">
+        <h2 class="h2-studio">Постоянные клиенты</h2>
+        <ul class="logo-client">
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo1-6.svg" alt="компания1"
+            /></a>
+          </li>
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo2-6.svg" alt="компания2"
+            /></a>
+          </li>
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo3-6.svg" alt="компания3"
+            /></a>
+          </li>
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo4-6.svg" alt="компания4"
+            /></a>
+          </li>
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo5-6.svg" alt="компания5"
+            /></a>
+          </li>
+          <li class="logo-client-items">
+            <a href=""
+              ><img src="./images/svg/logo6-6.svg" alt="компания6"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+      <div class="container-footer container">
+        <div class="footer-content">
+          <div class="container-adress">
+            <a href="./index.html" class="logo"
+              >Web<span class="studio-footer"> Studio</span></a
+            >
+            <h2 class="footer-adress">г. Киев, пр-т Леси Украинки, 26</h2>
+            <ul class="adress-items">
+              <li class="adress-list">
+                <a href="mailto:info@devstudio.com" class="footer-contact"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="footer-contact"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="join">
+            <p class="footer-connect">присоединяйтесь</p>
+            <ul class="footer-seti">
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img
+                    src="./images/svg/insta-footer.svg"
+                    class="footer-seti-logo"
+                    alt="интсаграмм"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/twitter-footer.svg" alt="твиттер"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/facebook-footer.svg" alt="фейстбук"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/linkid-footer.svg" alt="линкид"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe">
+            <p class="footer-connect">подпишитесь на рассылку</p>
+          </div>
+        </div>
+        <p class="footer-copyright">2020 | Developed by GoIT Students</p>
+      </div>
+    </footer>
+  </body>
+</html>
