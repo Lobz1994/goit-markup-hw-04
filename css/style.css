@@ -638,17 +638,21 @@ footer {
 .footer-seti-items {
   margin-right: 10px;
 }
-.footer-icon { 
-  width: 44px; 
-  height: 44px;
-  border-radius: 50%;
-  fill: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+.footer-fon-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-icon:hover {
-  background-color: #2196F3;
-  
+.footer-fon-icon:hover {
+  background-color: var(--blue-color);
 }
+
+
 .footer-seti-items:last-child {
   margin-right: 0;
 }
